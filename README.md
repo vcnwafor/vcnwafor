@@ -60,7 +60,7 @@ Streaming: Kafka 📊 RabbitMQ 🐰 AWS SQS
 **AI/ML & Analytics**
 ```
 ML: OpenAI, CLaude, Gemini, TensorFlow 🧠 PyTorch 🔥 NLTK • spaCy • OpenCV 👁️
-APIs: FastAPI ⚡ model serving, real-time inference pipelines
+APIs: Steamlit, Flask, FastAPI ⚡ model serving, real-time inference pipelines
 Integration: OpenAI 🤖 Claude • custom model deployment
 ```
 
