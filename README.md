@@ -1,117 +1,48 @@
-# 👋 Hi, I'm Victor Nwafor
-### Technical Lead & Solutions Architect | 14+ Years Building Enterprise Systems
+# Hi, I'm Victor Nwafor 👋
 
-With over 14 years in tech, I specialize in creating cloud-native solutions that solve business challenges and drive measurable results. From startups to enterprises, I partner with clients to turn their vision into reality, including cutting-edge AI and LLM integrations.
+**Technical Lead & Solutions Architect** · Co-founder, [Entraid Systems](#) · Winnipeg 🇨🇦 / Nigeria 🇳🇬
 
----
-
-## ✨ Proven Results
-- **55% processing time reduction** - Built systems that cut processing times and costs by 35%
-- **Zero downtime migrations** - Migrated 300+ staff to cloud during COVID-19 lockdown
-- **50% performance improvements** - AWS Lambda solutions with infrastructure automation
-- **Enterprise scale delivery** - From startups to global clients across healthcare, fintech, oil & gas
+14+ years building enterprise backends and cloud platforms across healthcare, fintech, oil & gas telecoms, and edtech. Today I focus on **production AI systems** — LLM pipelines, confidential-computing deployments, and the infrastructure that makes models fast, cheap, and trustworthy to run.
 
 ---
 
-## 🎯 What I Deliver
+## 🔭 Right now
 
-**🤖 AI & LLM Integration**  
-Expert in implementing ML models through FastAPI endpoints, integrating AI services like OpenAI and Claude into enterprise systems, and building scalable inference pipelines for real-time AI applications.
+- **LLM inference engineering** — going deep on serving internals: KV-cache math, continuous batching, vLLM/SGLang benchmarking, quantization (FP8/AWQ/GPTQ), speculative decoding, Triton kernels, and SLO-driven GPU deployments.
+- **MSc Cyber Security** (University of Wolverhampton) — research toward **Trustworthy AI for Autonomous Cyber Defence**, ahead of an AI-security PhD.
+- **Applied AI research** — writing up real systems (scam-call detection, multi-agent planning) for workshop venues.
 
-**🏗️ Custom Enterprise Systems**  
-Expertise in distributed systems, search technologies (Elasticsearch, OpenSearch), and data persistence using C# .NET, Python, Node.js, and Go - optimized for AI workloads and high-throughput processing.
+## 🧩 Things I've built
 
-**☁️ Cloud Excellence**  
-Deploy robust solutions on AWS, Azure, and GCP, optimizing for scalability and cost-efficiency. Specialized in GPU orchestration and container management for AI/ML workloads. *Reduced infrastructure costs by 20% for SaaS clients.*
+| Project | What it is | Under the hood |
+|---|---|---|
+| **CallGuard** | Real-time scam-call detection protecting elderly users | Go monorepo · Telnyx VoIP → STT → LLM risk scoring · GCP Confidential Space (AMD SEV-SNP) · signed images (cosign/KMS) · blue/green · Terraform + WIF + Binary Authorization |
+| **FlashAI** | Multi-agent business-continuity planning platform | LangGraph agents · RAG pipelines · tabletop-exercise simulation · resilience dashboard |
+| **EMR** | Electronic medical records platform | FHIR / HL7 interoperability |
 
-**⚡ AI-Ready Infrastructure**  
-Built event-driven platforms processing large data streams using Kafka, implemented ML model serving with proper monitoring, and designed systems handling computational demands of modern AI applications.
+## 📈 Selected results
 
-**🗄️ Database Mastery**  
-Skilled in MSSQL, PostgreSQL, MongoDB, Redis, DynamoDB, and vector databases for AI applications - ensuring secure, high-performance data management and efficient similarity search for LLM applications.
+- **55% faster processing and 35% lower cost** on a re-architected data-processing system
+- **300+ staff moved to the cloud with zero downtime** during the COVID-19 lockdown
+- **50% performance gain** on AWS Lambda workloads through infrastructure automation
+- **20% infrastructure cost reduction** for SaaS clients
+- Leading distributed engineering teams across Canada and Nigeria for North American clients
 
-**🚀 Streamlined DevOps**  
-Use Terraform, Ansible, CloudFormation, and Kubernetes to automate infrastructure, including GPU clusters and AI-specific orchestration, plus message brokers for reliable distributed systems.
+## 🛠️ Stack
 
----
+**Languages** — Go · Python · C#/.NET · TypeScript/Node.js · Java · Kotlin
+**AI/ML** — PyTorch · vLLM · SGLang · LangChain/LangGraph · RAG & vector search · FastAPI model serving · OpenAI, Claude & Gemini APIs
+**Cloud & infra** — AWS · GCP · Azure · Kubernetes · Docker · Terraform · Ansible · GPU orchestration · Confidential Computing
+**Data** — PostgreSQL · MSSQL · MongoDB · Redis · DynamoDB · Neo4j · Elasticsearch/OpenSearch · Kafka · RabbitMQ
+**Security & delivery** — Workload Identity Federation · Binary Authorization · supply-chain signing · GitHub Actions · Azure DevOps
+**Observability** — Prometheus · Grafana · Datadog · New Relic · ELK · k6
 
-## 🛠️ Technical Arsenal
+## 🤝 Work with me
 
-**Backend & Systems**
-```
-Languages: C# 🔷 Python 🐍 Go 🐹 Java ☕ NodeJS 🟢
-Frameworks: Django • FastAPI ⚡ Spring Boot • Play • Gin • Express
-```
+Open to **AI infrastructure & inference**, **enterprise architecture**, **cloud migration/cost optimization**, and **security-first system design** — plus technical mentoring and research collaboration.
 
-**Cloud & Infrastructure**
-```
-Cloud: AWS ☁️ GCP 🌐 Azure 🔵 (14+ years combined experience)
-IaC: Terraform 🏗️ CloudFormation • CDK • Ansible 🤖
-Orchestration: Kubernetes ⚓ Docker 🐳 EKS
-```
-
-**Data & Search**
-```
-Databases: PostgreSQL 🐘 MSSQL • MongoDB 🍃 Redis 🔴 Neo4J • DynamoDB • Cosmos DB
-Search: Elasticsearch 🔍 OpenSearch • Solr
-Streaming: Kafka 📊 RabbitMQ 🐰 AWS SQS
-```
-
-**AI/ML & Analytics**
-```
-ML: OpenAI, CLaude, Gemini, TensorFlow 🧠 PyTorch 🔥 NLTK • spaCy • OpenCV 👁️
-APIs: Steamlit, Flask, FastAPI ⚡ model serving, real-time inference pipelines
-Integration: OpenAI 🤖 Claude • custom model deployment
-```
-
-**DevOps & Monitoring**
-```
-CI/CD: Jenkins • GitHub Actions 🚀 TeamCity • CircleCI • Azure DevOps
-Monitoring: NewRelic • Datadog 🐕 Grafana 📈 Prometheus • ELK Stack
-Testing: K6 • Postman 📮 automated testing pipelines
-```
+📫 Reach me via [LinkedIn](https://www.linkedin.com/in/vcnwafor/) · [Email](#)
 
 ---
 
-## 🚀 What I'm Working On
-
-**🤖 AI-First Solutions**
-- Implementing LLM integrations for enterprise applications
-- Building scalable ML model serving infrastructure
-- Developing AI-powered SaaS platforms
-
-**☁️ Cloud-Native Architecture**
-- Designing event-driven microservices ecosystems
-- Optimizing multi-region deployments for global scale
-- Implementing cost-effective serverless architectures
-
-**📊 High-Performance Systems**
-- Building real-time data processing pipelines
-- Architecting distributed systems for million+ device connectivity
-- Creating robust API gateways and service meshes
-
----
-
-## 🏢 Enterprise Experience
-
-**Currently:** Technical Lead at **Entraid Systems** (Nov 2023 - Present)
-- Leading architecture decisions for scalable backend systems
-- Implementing ML models and AI integrations across client projects via Entraid, Arc.dev, Modus Create, e.t.c
-- Managing multi-cloud deployments on AWS/GCP with full observability
-
-**Why Partner With Me?**  
-My experience spans from traditional enterprise systems to modern AI-powered applications, making me uniquely positioned to help businesses leverage both proven technologies and emerging AI capabilities. I adapt to your workflow, communicate clearly, and deliver on time - every time.
-
----
-
-## 🤝 Open for Collaboration
-
-- I Exceed your expectation and make your dreams come true.
-- Enterprise system architecture
-- AI/ML integration projects  
-- Cloud migration and optimization
-- Technical mentoring and team leadership
-
----
-
-*"Building systems that scale from idea to enterprise"*
+<sub>*Building systems that scale from idea to enterprise — and AI you can trust in production.*</sub>
